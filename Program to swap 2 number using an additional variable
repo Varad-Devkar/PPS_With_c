@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    printf("Enter number a:\t");
+    scanf("%d", &a);
+
+    printf("Enter number b:\t");
+    scanf("%d", &b);
+    printf("Before swapping values of a and b are %d and %d\n", a, b);
+
+    c = a;
+    a = b;
+    b = c;
+
+    printf("After swapping values of a and b are %d and %d\n", a, b);
+    return 0;
+}
