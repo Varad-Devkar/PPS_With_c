@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+     printf("Respected Sir,\n\n\t I am Varad Chandrashekhar Devkar, Prn No. 24030331372013 from EXTC, Div-A. 
+     Writing this letter to inform you that I am not be able to attend your lecture today. \n\n\t\t\t\t\t\t 
+     Yours Sincerely, \n\t\t\t\t\t\t Varad Devkar");
+     return 0;
+}
