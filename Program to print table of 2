@@ -6,7 +6,7 @@ int main()
     for(i=1 ;i<=10 ;i++) 
     {
         table = num*i;
-        printf("%d\n", num);
+        printf("%d\n", table);
     }
     return 0;
 }
