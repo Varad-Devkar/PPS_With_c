@@ -5,7 +5,7 @@ int main()
     int num1,num2,mult;
     printf("Enter first number:\t");
     scanf("%d",&num1);
-    printf("Enter second number:\t);
+    printf("Enter second number:\t");
     scanf("%d",&num2);
     mult=num1*num2;
     printf("mult of %d and %d is %d",num1,num2,mult);
@@ -18,7 +18,7 @@ int main()
     float num1,num2,div;
     printf("Enter first number:\t");
     scanf("%f",&num1);
-    printf("Enter second number:\t);
+    printf("Enter second number:\t");
     scanf("%f",&num2);
     div=num1/num2;
     printf("div of %f and %f is %f",num1,num2,div);
