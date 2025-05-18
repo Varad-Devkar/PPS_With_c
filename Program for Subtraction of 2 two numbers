@@ -6,7 +6,7 @@ int main()
     printf("Enter first number:\t");
     scanf("%d",&num1);
 
-    printf("Enter second number:\t);
+    printf("Enter second number:\t");
     scanf("%d",&num2);
 
     sub=num1-num2;
