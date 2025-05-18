@@ -5,8 +5,8 @@ int main()
 
     for(i=0 ;i<=20 ;i++) 
     {
-        rem = i%2
-        if(rem == 1);
+        rem = i%2;
+        if(rem == 1)
         {
             printf("%d\n", i);
         }
