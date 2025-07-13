@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int LinearSearch(int arr[], int size, int value);
+
+int main()
+{
+    int a[10] = {9, 8, 7, 0, 6, 5, 5, 3, 2, 4};
+    int result, key;
+
+    printf("Enter number to find:\t");
+    scanf("%d", &key);
+
+    result = LinearSearch(a, 10, key);
+
+    if(result == -1)
+    {
+        printf("Number not found");
+    }
+    else
+    {
+        printf("The number %d is found at index %d", key, result);
+    }
+
+    return 0;
+}
+
+int LinearSearch(int arr[], int size, int value)
+{
+    int i;
+    for(i = 0; i < size; i++)
+    {
+        if(arr[i] == value)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
